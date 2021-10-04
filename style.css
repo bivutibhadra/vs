@@ -1,0 +1,223 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.body {
+    /* */
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.hr-style {
+    border: 5px dotted;
+    width: 50px;
+    border-bottom: none;
+}
+
+.sescton-title h3 {
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+.sescton-title {
+    padding: 0.5% 0;
+}
+
+.hader {
+    background-image: url("images/02.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-cointainer {
+    height: 100vh;
+}
+
+.banner-cointainer p {
+    color: yellow;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+}
+
+.navbar {
+    padding: 1% 10%;
+    /*background-color: rgba(0, 0, 0, 0.3);*/
+}
+
+.nav-icon {
+    color: yellow;
+}
+
+.nav-link {
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+.nav-link:hover {
+    background-color: rgba(218, 189, 189, 0.4);
+    outline-offset: white;
+    color: yellow;
+    transform: scale(1.2);
+}
+
+.navbar-brand {
+    padding: -10%;
+}
+
+.banner-containes h1 {
+    font-size: 3.5rem;
+    /*background-color: rgba(0, 0, 0, 0.3);
+    */
+    font-family: 'Handlee', cursive;
+    padding: 10px 20px;
+}
+
+.banner-containes p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*hader end*/
+
+
+/* features start*/
+
+#features {
+    padding: 5% 10%;
+    background-image: url('https://s-media-cache-ak0.pinimg.com/600x315/b6/19/57/b61957655480abd9bc164421eb10f96b.jpg');
+    /* background-color: #e8dcd2;*/
+}
+
+.features-col {
+    border: 1px solid #ff02c0;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+    transition: .4s;
+}
+
+.features-col:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 6px 5px #212121;
+}
+
+.icon-style {
+    background-color: #bb0aac;
+    color: white;
+    padding: 12px;
+    margin: 4px 0;
+}
+
+
+/* features end*/
+
+
+/* about start*/
+
+#about {
+    background-image: url("images/05.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4% 10%;
+    /*text-align: center;*/
+}
+
+.basic-desc p {
+    padding: 1px;
+    margin-bottom: 0;
+    font-size: 0.9rem;
+    font-weight: light;
+    color: black;
+}
+
+.basic-desc h5 {
+    color: black;
+}
+
+.basic-desc a {
+    font-size: 0.9rem;
+    font-weight: lighter;
+    color: black;
+    text-decoration: underline;
+}
+
+
+/*Aceivement*/
+
+.achive-desc p {
+    padding: 1px;
+    margin-bottom: 0;
+    font-size: 0.9rem;
+    font-weight: light;
+    color: black;
+}
+
+.achive-desc h5 {
+    color: black;
+}
+
+.achive-desc span {
+    font-weight: 700 !important;
+}
+
+
+/* skill */
+
+.star i {
+    width: 20px;
+}
+
+
+/* about end*/
+
+#tutorial {
+    background-image: url('images/bac.jpg');
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4% 10%;
+}
+
+.row {
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+.card {
+    border: 1px solid #ffe602;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+    transition: .4s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 6px 5px yellow;
+}
+
+
+.carousel-item {
+    padding-bottom: 45px;
+    text-align: center;
+    
+    background-color: #212121;
+}
+
+.carousel-img {
+    width: 800px;
+}
